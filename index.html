@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">CloudDev.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Hi, I'm <span class="highlight">Alex Cloud</span></h1>
+            <h2>Cloud Engineer & DevOps Specialist</h2>
+            <p>Architecting scalable, secure, and reliable cloud infrastructure.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a passionate Cloud Engineer with experience in designing and implementing cloud-native solutions. My expertise lies in automating infrastructure, optimizing costs, and ensuring high availability. I love solving complex problems and staying up-to-date with the latest cloud technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>Cloud Platforms</h3>
+                    <p>AWS, Azure, Google Cloud Platform</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>IaC & Configuration</h3>
+                    <p>Terraform, Ansible, CloudFormation</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cubes"></i>
+                    <h3>Containers & Orchestration</h3>
+                    <p>Docker, Kubernetes (EKS, AKS)</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-infinity"></i>
+                    <h3>CI/CD & DevOps</h3>
+                    <p>Jenkins, GitHub Actions, GitLab CI</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Scripting & Programming</h3>
+                    <p>Python, Bash, Go</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security & Monitoring</h3>
+                    <p>IAM, Prometheus, Grafana, ELK Stack</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Serverless Image Processing Pipeline</h3>
+                        <p>Built a serverless architecture using AWS Lambda, S3, and Rekognition to automatically tag and process uploaded images.</p>
+                        <div class="tags">
+                            <span>AWS Lambda</span>
+                            <span>S3</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="#" class="btn-small">View Code <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Multi-Cloud Kubernetes Cluster</h3>
+                        <p>Deployed a high-availability Kubernetes cluster spanning AWS and Azure using Terraform and configured GitOps with ArgoCD.</p>
+                        <div class="tags">
+                            <span>Kubernetes</span>
+                            <span>Terraform</span>
+                            <span>ArgoCD</span>
+                        </div>
+                        <a href="#" class="btn-small">View Code <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Automated CI/CD Pipeline</h3>
+                        <p>Implemented a robust CI/CD pipeline for a microservices application, reducing deployment time by 60%.</p>
+                        <div class="tags">
+                            <span>Jenkins</span>
+                            <span>Docker</span>
+                            <span>Bash</span>
+                        </div>
+                        <a href="#" class="btn-small">View Code <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-item">
+                    <h3>AWS Certified Solutions Architect - Associate</h3>
+                    <p>Issued: Jan 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h3>Certified Kubernetes Administrator (CKA)</h3>
+                    <p>Issued: June 2023</p>
+                </div>
+                <div class="cert-item">
+                    <h3>HashiCorp Certified: Terraform Associate</h3>
+                    <p>Issued: Sept 2023</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Interested in working together or have a question? Feel free to reach out!</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+                <a href="mailto:email@example.com" class="btn">Email Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Alex Cloud. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
